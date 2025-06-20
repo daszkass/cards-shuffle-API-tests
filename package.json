@@ -2,7 +2,10 @@
   "name": "cards-shuffle-api-tests",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "k6": "k6 run script.js",
+    "pw": "npx playwright test"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
